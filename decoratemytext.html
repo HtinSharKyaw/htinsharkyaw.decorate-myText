@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Decorator</title>
+  <link rel="stylesheet" href="decoratemytext.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="background">
+  <h1>Text Decorator</h1>
+  <div>
+    <img src="https://mumstudents.org/cs472/2022-05-BL/Labs/6/decorated.gif" alt="very decorated">
+    <fieldset>
+      <legend>Text</legend>
+      <textarea name="showText" id="showText" cols="30" rows="4">Sample Item1 &#013;Sample Item2</textarea>
+    </fieldset><br>
+    <fieldset>
+      <legend>Decoration</legend>
+      <button id="labelButton">Bigger Decorations</button><br>
+      <input type="checkbox" id="checkBling" value="Bling" onchange="changeStyle()" />Bling
+    </fieldset>
+  </div>
+  <button id="clickMalkovich">Malkovitch</button>
+  <script src="decoratemytext.js"></script>
+</body>
+
+</html>
